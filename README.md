@@ -76,9 +76,9 @@
 ## ✅ 개발 순서
 
 1. **Spring Boot 백엔드 구성**
-   - Gradle 프로젝트 생성 (`spring-boot-starter-web`, `spring-boot-starter-data-jpa`, `h2` 또는 `mysql-connector`)
+   - Gradle 프로젝트 생성 (`spring-boot-starter-web`, `spring-boot-starter-data-jpa`, `mysql-connector`)
    - Entity, Repository, Controller, CORS 설정
-   - Swagger 적용 (선택)
+   - Swagger 적용
 
 2. **프론트엔드 UI 설계**
    - Vite + React + TypeScript 프로젝트 생성
