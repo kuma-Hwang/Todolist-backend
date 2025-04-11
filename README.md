@@ -30,22 +30,6 @@
 
 ---
 
-## 🧾 Todo 상태 정의
-
-```ts
-interface Todo {
-  id: number;
-  content: string;
-  completed: boolean;
-  dueDate: string; // ISO format (예: 2025-04-15)
-}
-
-const [todos, setTodos] = useState<Todo[]>([]);
-const [filter, setFilter] = useState<'all' | 'completed' | 'incompleted'>('all');
-```
-
----
-
 ## ✅ 기능 정의 및 테스트 포인트
 
 | 기능명 | 설명 | 테스트 포인트 |
