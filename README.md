@@ -54,10 +54,6 @@
 
 ---
 
-
-
----
-
 ## 🧪 통합 테스트 예시
 
 - JUnit + MockMvc로 REST API 테스트
